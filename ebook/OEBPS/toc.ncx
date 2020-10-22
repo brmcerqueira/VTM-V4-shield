@@ -55,7 +55,98 @@
               <text>ANIMALISMO</text>
             </navLabel>
             <content src="disciplinas/animalismo.html"/>
-        </navPoint>  
-    </navPoint>    
+        </navPoint>
+        
+        <navPoint id="disciplinas.auspicios" playOrder="8">
+            <navLabel>
+              <text>AUSPÍCIOS</text>
+            </navLabel>
+            <content src="disciplinas/auspicios.html"/>
+        </navPoint>
+        <navPoint id="disciplinas.demencia" playOrder="9">
+            <navLabel>
+              <text>DEMÊNCIA</text>
+            </navLabel>
+            <content src="disciplinas/demencia.html"/>
+        </navPoint>
+        <navPoint id="disciplinas.dominacao" playOrder="10">
+            <navLabel>
+              <text>DOMINAÇÃO</text>
+            </navLabel>
+            <content src="disciplinas/dominacao.html"/>
+        </navPoint>
+        <navPoint id="disciplinas.ofuscacao" playOrder="11">
+            <navLabel>
+              <text>OFUSCAÇÃO</text>
+            </navLabel>
+            <content src="disciplinas/ofuscacao.html"/>
+        </navPoint>
+        <navPoint id="disciplinas.presenca" playOrder="12">
+            <navLabel>
+              <text>PRESENÇA</text>
+            </navLabel>
+            <content src="disciplinas/presenca.html"/>
+        </navPoint>
+        <navPoint id="disciplinas.quietus" playOrder="13">
+            <navLabel>
+              <text>QUIETUS</text>
+            </navLabel>
+            <content src="disciplinas/quietus.html"/>
+        </navPoint>
+        <navPoint id="disciplinas.quimerismo" playOrder="14">
+            <navLabel>
+              <text>QUIMERISMO</text>
+            </navLabel>
+            <content src="disciplinas/quimerismo.html"/>
+        </navPoint>
+        <navPoint id="disciplinas.serpentis" playOrder="15">
+            <navLabel>
+              <text>SERPENTIS</text>
+            </navLabel>
+            <content src="disciplinas/serpentis.html"/>
+        </navPoint>
+        <navPoint id="disciplinas.tenebrosidade" playOrder="16">
+            <navLabel>
+              <text>TENEBROSIDADE</text>
+            </navLabel>
+            <content src="disciplinas/tenebrosidade.html"/>
+        </navPoint>
+        <navPoint id="disciplinas.vicissitude" playOrder="17">
+            <navLabel>
+              <text>VICISSITUDE</text>
+            </navLabel>
+            <content src="disciplinas/vicissitude.html"/>
+        </navPoint>                                                                                  
+    </navPoint>
+    <navPoint id="custo.experiencia" playOrder="18">
+        <navLabel>
+          <text>CUSTO DE EXPERIÊNCIA</text>
+        </navLabel>
+        <content src="custo.experiencia.html"/>
+    </navPoint>
+    <navPoint id="fisicas" playOrder="19">
+        <navLabel>
+          <text>FÍSICAS</text>
+        </navLabel>
+        <content src="fisicas.html"/>
+    </navPoint>
+    <navPoint id="mentais" playOrder="20">
+        <navLabel>
+          <text>MENTAIS</text>
+        </navLabel>
+        <content src="mentais.html"/>
+    </navPoint>
+    <navPoint id="sociais" playOrder="21">
+        <navLabel>
+          <text>SOCIAIS</text>
+        </navLabel>
+        <content src="sociais.html"/>
+    </navPoint>
+    <navPoint id="vampirica" playOrder="22">
+        <navLabel>
+          <text>VAMPÍRICA</text>
+        </navLabel>
+        <content src="vampirica.html"/>
+    </navPoint>                         
    </navMap>
 </ncx>
