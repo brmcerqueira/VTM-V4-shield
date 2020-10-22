@@ -10,12 +10,27 @@
    <manifest>
       <!-- Documentos -->
       <item id="index" href="index.html" media-type="application/xhtml+xml" />
+      <item id="custo.experiencia" href="custo.experiencia.html" media-type="application/xhtml+xml" />
+      <item id="fisicas" href="fisicas.html" media-type="application/xhtml+xml" />
+      <item id="mentais" href="mentais.html" media-type="application/xhtml+xml" />
+      <item id="sociais" href="sociais.html" media-type="application/xhtml+xml" />
+      <item id="vampirica" href="vampirica.html" media-type="application/xhtml+xml" />
 
       <item id="combate.combate.a.distancia" href="combate/combate.a.distancia.html" media-type="application/xhtml+xml" />
       <item id="combate.combate.proximo" href="combate/combate.proximo.html" media-type="application/xhtml+xml" />
       <item id="combate.dano" href="combate/dano.html" media-type="application/xhtml+xml" />
 
 	   <item id="disciplinas.animalismo" href="disciplinas/animalismo.html" media-type="application/xhtml+xml" />
+      <item id="disciplinas.auspicios" href="disciplinas/auspicios.html" media-type="application/xhtml+xml" />
+      <item id="disciplinas.demencia" href="disciplinas/demencia.html" media-type="application/xhtml+xml" />
+      <item id="disciplinas.dominacao" href="disciplinas/dominacao.html" media-type="application/xhtml+xml" />
+      <item id="disciplinas.ofuscacao" href="disciplinas/ofuscacao.html" media-type="application/xhtml+xml" />
+      <item id="disciplinas.presenca" href="disciplinas/presenca.html" media-type="application/xhtml+xml" />
+      <item id="disciplinas.quietus" href="disciplinas/quietus.html" media-type="application/xhtml+xml" />
+      <item id="disciplinas.quimerismo" href="disciplinas/quimerismo.html" media-type="application/xhtml+xml" />
+      <item id="disciplinas.serpentis" href="disciplinas/serpentis.html" media-type="application/xhtml+xml" />
+      <item id="disciplinas.tenebrosidade" href="disciplinas/tenebrosidade.html" media-type="application/xhtml+xml" />
+      <item id="disciplinas.vicissitude" href="disciplinas/vicissitude.html" media-type="application/xhtml+xml" />
 
       <!-- CSS Style Sheets -->
       <item id="main-css" href="style.css" media-type="text/css"/>
@@ -25,11 +40,26 @@
    </manifest>
    <spine toc="idtoc">
      <itemref idref="index" linear="yes"/>
+     <itemref idref="custo.experiencia" linear="yes"/>
+     <itemref idref="fisicas" linear="yes"/>
+     <itemref idref="mentais" linear="yes"/>
+     <itemref idref="sociais" linear="yes"/>
+     <itemref idref="vampirica" linear="yes"/>
 
      <itemref idref="combate.combate.a.distancia" linear="yes"/>
      <itemref idref="combate.combate.proximo" linear="yes"/>
      <itemref idref="combate.dano" linear="yes"/>
 
      <itemref idref="disciplinas.animalismo" linear="yes"/>
+     <itemref idref="disciplinas.auspicios" linear="yes"/>
+     <itemref idref="disciplinas.demencia" linear="yes"/>
+     <itemref idref="disciplinas.dominacao" linear="yes"/>
+     <itemref idref="disciplinas.ofuscacao" linear="yes"/>
+     <itemref idref="disciplinas.presenca" linear="yes"/>
+     <itemref idref="disciplinas.quietus" linear="yes"/>
+     <itemref idref="disciplinas.quimerismo" linear="yes"/>
+     <itemref idref="disciplinas.serpentis" linear="yes"/>
+     <itemref idref="disciplinas.tenebrosidade" linear="yes"/>
+     <itemref idref="disciplinas.vicissitude" linear="yes"/>
    </spine>
 </package>
