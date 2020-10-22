@@ -30,14 +30,8 @@ h3 {
     font-family:"Times New Roman"; 
 }
 
-.center   {
+td { 
 	text-align: center;
-}
-
-.underline {
-	text-decoration: underline;
-}
-
-.bold     {
-	font-weight: bold;
+    font-family:"Times New Roman";
+    max-height: 20%; 
 }
