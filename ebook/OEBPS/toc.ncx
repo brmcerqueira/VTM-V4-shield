@@ -15,19 +15,42 @@
       <text>Vampiro: A máscara 4th - Escudo</text>
    </docTitle>
    <navMap>
-
     <navPoint id="index" playOrder="1">
         <navLabel>
           <text>TÍTULO</text>
         </navLabel>
         <content src="index.html"/>
     </navPoint>
-    <navPoint id="disciplinas.animalismo" playOrder="2">
+    <navPoint id="combate" playOrder="2">
+        <navLabel>
+          <text>COMBATE</text>
+        </navLabel>
+        <content src="combate/combate.a.distancia.html"/>	  
+        <navPoint id="combate.combate.a.distancia" playOrder="3">
+            <navLabel>
+              <text>COMBATE À DISTÂNCIA</text>
+            </navLabel>
+            <content src="combate/combate.a.distancia.html"/>
+        </navPoint>
+        <navPoint id="combate.combate.proximo" playOrder="4">
+            <navLabel>
+              <text>COMBATE PRÓXIMO</text>
+            </navLabel>
+            <content src="combate/combate.proximo.html"/>
+        </navPoint>
+        <navPoint id="combate.dano" playOrder="5">
+            <navLabel>
+              <text>DANO</text>
+            </navLabel>
+            <content src="combate/dano.html"/>
+        </navPoint>                  
+    </navPoint>
+    <navPoint id="disciplinas" playOrder="6">
         <navLabel>
           <text>DISCIPLINAS</text>
         </navLabel>
         <content src="disciplinas/animalismo.html"/>	  
-        <navPoint id="disciplinas" playOrder="3">
+        <navPoint id="disciplinas.animalismo" playOrder="7">
             <navLabel>
               <text>ANIMALISMO</text>
             </navLabel>

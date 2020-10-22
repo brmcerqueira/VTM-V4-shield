@@ -10,7 +10,12 @@
    <manifest>
       <!-- Documentos -->
       <item id="index" href="index.html" media-type="application/xhtml+xml" />
-	  <item id="disciplinas.animalismo" href="disciplinas/animalismo.html" media-type="application/xhtml+xml" />
+
+      <item id="combate.combate.a.distancia" href="combate/combate.a.distancia.html" media-type="application/xhtml+xml" />
+      <item id="combate.combate.proximo" href="combate/combate.proximo.html" media-type="application/xhtml+xml" />
+      <item id="combate.dano" href="combate/dano.html" media-type="application/xhtml+xml" />
+
+	   <item id="disciplinas.animalismo" href="disciplinas/animalismo.html" media-type="application/xhtml+xml" />
 
       <!-- CSS Style Sheets -->
       <item id="main-css" href="style.css" media-type="text/css"/>
@@ -20,6 +25,11 @@
    </manifest>
    <spine toc="idtoc">
      <itemref idref="index" linear="yes"/>
+
+     <itemref idref="combate.combate.a.distancia" linear="yes"/>
+     <itemref idref="combate.combate.proximo" linear="yes"/>
+     <itemref idref="combate.dano" linear="yes"/>
+
      <itemref idref="disciplinas.animalismo" linear="yes"/>
    </spine>
 </package>
