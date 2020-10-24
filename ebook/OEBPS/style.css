@@ -40,21 +40,7 @@ td {
     max-height: 20%; 
 }
 
-.list {
-    display: flex;
-}
-
-ul {
-    list-style: none;
-}
-
-ul li:first-child {
+dd span:first-child {
     font-weight: bold;
-}
-
-li { 
-    margin-bottom: 1em; 
-    text-align: center;
-    font-family:"Times New Roman";
-    max-height: 20%; 
+    margin-right: 0.5em;
 }
