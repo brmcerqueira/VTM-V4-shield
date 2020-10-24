@@ -60,13 +60,13 @@ parser.on('start_prefix_mapping', (ns, uri) => {
     }
 });
 
-if (index != 1) {
-    array.push(jogada);
-}
-
 const reader = await Deno.open(Deno.args[0]);
 await parser.parse(reader);
 reader.close();
+
+if (index != 1) {
+    array.push(jogada);
+}
 
 let sb = "<dl>";
 
